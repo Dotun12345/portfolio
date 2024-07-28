@@ -78,6 +78,7 @@ body{
 
 #hire{
     background-color: var(--primary-color);
+    padding: 10px 40px;
 }
 
 #hire:hover{
