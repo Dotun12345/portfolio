@@ -1,0 +1,255 @@
+/* ========================================ABRIL FLATFACE FONT====================================== */
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
+/* ===========================================SYNE FONT============================================ */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wgh@400;500&display=swap');
+/* ============================PLAYWRITES============ */
+/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+/* ==============================================MAIN STYLES========================================= */
+
+:root{
+    --abril-fatface-font: Bai Jamjuree;
+    --syne-font: 'Syne', sans-serif;
+    --black-color: #1f2641;
+    --primary-color: rgb(66, 72, 144);
+    --white-color: #fff;
+    /* --leapis-font: 'Playwrite'; */
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-weight: lighter;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: white;
+    /* overflow-x: hidden; */
+    font-family: Comfortaa, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 300;
+    width: 100%;
+}
+
+#nav-name{
+    font-family: var(--abril-fatface-font);
+}
+
+
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: rgb(31, 38, 65);
+    z-index: 11;
+    border-bottom: 1px solid black;
+    box-shadow: 4px 5px 7px -2px hsla(0, 0%, 0%, 0.6);
+}
+
+.navbar a{
+    color: white;
+    font-family: var(--leapis-font);
+}
+
+.navbar a:hover{
+    color: var(--primary-color);
+}
+
+.nav-link{
+    font-size: 12px;
+}
+
+.sect{
+    background: var(--black-color);
+    height: 540px;
+    background-size: cover;
+    position: relative;
+}
+
+#intro-name{
+    color: white;
+    font-family: var(--abril-fatface-font);
+    font-size: 100px;
+}
+
+#hire{
+    background-color: var(--primary-color);
+}
+
+#hire:hover{
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+#image{
+    max-width: 100%;
+}
+
+#bout-me{
+    color: white;
+    font-family: var(--abril-fatface-font);
+    font-weight: 1000;
+}
+
+#cntn{
+    border: 1px solid var(--black-color);
+    box-shadow: 5px 5px 6px -5px;
+}
+
+.proj{
+    font-family: var(--abril-fatface-font);
+    font-weight: 1000;
+}
+
+#pet{
+    width: 100%;
+
+}
+
+/* #pet-shel{
+    background-color: var(--primary-color);
+} */
+
+#para{
+    justify-content: end;
+    display: flex;
+}
+
+#abt{
+    padding-bottom: 50px;
+}
+
+.pro{
+    background-color: var(--black-color);
+}
+
+.overlays{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 72, 144, 0.7);
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+}
+
+.overlays:hover{
+    background-color: transparent;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.img1{
+    background: url(images/Pet\ shelter.png);
+    height: 320px;
+    width: 610px;
+    width: 99%;
+    background-size: cover;
+}
+
+.img2{
+    background: url(images/Server.png);
+    height: 320px;
+    width: 610px;
+    width: 99%;
+    background-size: cover;
+}
+
+.img3{
+    background: url(images/Book\ web.png);
+    height: 320px;
+    width: 610px;
+    width: 99%;
+    background-size: cover;
+}
+
+h3{
+    font-family: var(--abril-fatface-font);
+}
+
+.message button{
+    color: #fff;
+    background-color: var(--black-color);
+    border-radius: 6px;
+    padding: 8px 200px;
+    text-decoration: none !important;
+}
+
+.message button:hover{
+    color: var(--black-color);
+    background-color: white;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.frm{
+    width: 320px;
+    justify-content: center;
+    display: block;
+}
+
+.snd button{
+    padding: 8px 100px;
+    background-color: var(--black-color);
+    color: white;
+}
+
+.snd button:hover{
+    background-color: transparent;
+    border: 1px solid var(--black-color);
+    cursor: pointer;
+    transition: 0.3s;
+    color: var(--black-color);
+}
+
+#pp li a{
+    color: white;
+}
+
+#pp li a:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#hed{
+    font-family: var(--abril-fatface-font);
+}
+
+.fter{
+    background-color: var(--black-color);
+}
+
+.rights{
+    color: rgb(167, 167, 167);
+}
+
+#contact-links{
+    background-color: var(--black-color);
+    padding: 6px;
+    color: white;
+    font-size: 1.5rem;
+    display: inline;
+    justify-content: center;
+}
+
+#contact-links:hover{
+    color: var(--black-color);
+    background-color: transparent;
+    transition: 0.3s;
+    border: 1px solid var(--black-color);
+}
+
+#socials-container{
+    justify-content: center;
+    display: flex;
+    column-gap: 1rem;
+}
